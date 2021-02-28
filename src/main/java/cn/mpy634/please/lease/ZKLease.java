@@ -7,6 +7,7 @@ import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
 import java.io.Closeable;
+import java.io.IOException;
 
 /**
  * @author LEO D PEN
@@ -124,7 +125,7 @@ public class ZKLease<R> implements Lease<R>, Closeable {
     }
 
     @Override
-    public void close() {
+    public void close() throws IOException {
         if (zkClient != null) {
             try {
                 zkClient.close();
