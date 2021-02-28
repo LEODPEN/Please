@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.mpy634.please.config.PleaseConfig,cn.mpy634.please.config.PleaseAspect
