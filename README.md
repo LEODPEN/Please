@@ -6,7 +6,8 @@ PFS 之租约工具
 ## 使用
 
 ```yaml
-please.addresses: *.*.*.*:xxxx,*.*.*.*:xxxx
+please:
+  addresses: *.*.*.*:xxxx,*.*.*.*:xxxx
 ```
 
 租约方法：
